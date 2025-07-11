@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+myenv/
+
+# VSCode settings
+.vscode/
+
+# macOS and Linux
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Ignore everything in docs/, but not .csv or .pkl files
+docs/*
+!docs/*.csv
+!docs/*.pkl
+
+# Don't ignore .csv and .pkl anywhere
+!*.csv
+!*.pkl
